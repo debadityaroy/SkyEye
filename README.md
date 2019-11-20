@@ -26,13 +26,8 @@ are annotated. A detailed breakdown is below:
 Intersection | Car | bus | 2-wheeler | auto-rickshaw | truck | van 
 -|-|-|-|-|-|-
 P | 58 | 24 | 294 | 187 | 11 | 0  
--|-|-|-|-|-|-
 V | 132 | 9 | 627 | 195 | 7 | 0  
--|-|-|-|-|-|-
 N | 41 | 8 | 275 | 99 | 12 | 6  
--|-|-|-|-|-|-
 A | 73 | 6 | 402 | 135 | 43 | 0 
--|-|-|-|-|-|-
 S | 117 |30 | 587 | 357 | 34 | 16 
-
 
