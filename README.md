@@ -18,7 +18,13 @@ The videos were captured using a DJI Phantom 4 Pro drone at 50 frames per
 second in 4K resolution (4096x2160). 
 
 <h1> Annotation </h1>
-contains 50,000 frames in total from all the intersections. In
-these 50,000 frames, a total of 4,021 distinct vehicle tracks
-are annotated that include 421 cars, 77 buses, 2,185 twowheelers,
+50,000 frames in total, a total of 4,021 distinct vehicle tracks
+are annotated that include 421 cars, 77 buses, 2,185 two-wheelers,
 and 973 auto-rickshaws.
+Number of unique vehicles
+Intersection | Car | bus | 2-wheeler | auto-rickshaw | truck | van 
+P | 58 | 24 | 294 | 187 | 11 | 0  
+V | 132 | 9 | 627 | 195 | 7 | 0  
+N | 41 | 8 | 275 | 99 | 12 | 6  
+A | 73 | 6 | 402 | 135 | 43 | 0 
+S | 117 |30 | 587 | 357 | 34 | 16 
