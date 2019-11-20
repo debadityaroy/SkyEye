@@ -5,7 +5,7 @@ The SkyEye dataset is the first aerial dataset for monitoring intersections with
 
 **Paldi (P)         | Nehru Bridge Ashram Road (N)** 
 --------------------|-------------------------------
-![Paldi](paldi.png | width=200) |![Nehru](nehru.png | width=200)
+![](paldi.png | width=200) |![](nehru.png | width=200)
 --------------------|-------------------------------
 
 
