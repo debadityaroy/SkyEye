@@ -1,6 +1,13 @@
 # SkyEye dataset
 Dataset for analyzing lane-less traffic behavior at intersections
 
+This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
+
+---|---|---|---|
+![](jst.png)|![](jica.png)|![](m2smart.png)|![](nihon.png)|![](iith.png)
+
+
+
 The SkyEye dataset is the first aerial dataset for monitoring intersections with mixed traffic and lane-less behavior. Around 1 hour of video each from 4 intersections, namely, Paldi (P), Nehru bridge - Ashram road (N), Swami Vivekananda bridge - Ashram road (V), and APMC market (A) in the city of Ahmedabad, India.
 
 **Paldi (P)**         | **Nehru Bridge Ashram Road (N)** 
