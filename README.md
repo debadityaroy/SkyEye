@@ -5,6 +5,7 @@ The SkyEye dataset is the first aerial dataset for monitoring intersections with
 
 **Paldi (P)**         | **Nehru Bridge Ashram Road (N)** 
 ![](paldi.png) |![](nehru.png)
+---------------|----------------
 4-way signalized intersection | 4-way signalized intersections
 **Swami Vivekananda bridge - Ashram road (V)** | **APMC market (A)**
 ![](vivek.png) |![](apmc.png)
