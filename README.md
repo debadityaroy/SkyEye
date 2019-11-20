@@ -3,7 +3,7 @@ Dataset for analyzing lane-less traffic behavior at intersections
 
 This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
 
-![](jst.png) ![](jica.png) ![](m2smart.png) ![](nihon.jpg) ![](iith.png)
+![](jst.png | width=100) ![](jica.png| width=100) ![](m2smart.png| width=100) ![](nihon.jpg| width=100) ![](iith.png| width=100)
 
 
 
