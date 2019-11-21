@@ -1,9 +1,9 @@
 # SkyEye dataset
 <h2>Dataset for analyzing lane-less traffic behavior at intersections <h2>
 
-Part of the [M2Smart project!](http://m2smart.org/en/) <img src="m2smart.png" width="200"> 
+Part of the [M2Smart project!](http://m2smart.org/en/)  
 
-<img src="nihon.jpg" width="100"> <img src="iith.png" width="100">
+<img src="m2smart.png" width="200"> <img src="nihon.jpg" width="100"> <img src="iith.png" width="100">
 
 
 
