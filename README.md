@@ -1,9 +1,11 @@
 # SkyEye dataset
-Dataset for analyzing lane-less traffic behavior at intersections
+Dataset for analyzing lane-less traffic behavior at intersections 
 
-This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
+Part of the M2Smart project 
+Smart Cities for Emerging Countries based on Sensing, Networking and Big Data Analysis of Multimodal Regional Transport System
+<img src="m2smart.png" width="200"> 
 
-<img src="jst.png" width="100"> <<img src="jica.png" width="100"> <img src="m2smart.png" width="100"> <img src="nihon.jpg" width="100"> <img src="iith.png" width="100">
+<img src="nihon.jpg" width="100"> <img src="iith.png" width="100">
 
 
 
@@ -37,3 +39,4 @@ N | 41 | 8 | 275 | 99 | 12 | 6
 A | 73 | 6 | 402 | 135 | 43 | 0 
 
 
+This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
