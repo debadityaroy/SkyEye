@@ -47,8 +47,9 @@ There are two versions of the same dataset available for either multi-class mult
    * Train, test, and validation csv files are provided for training Resnet50 network according to this [repo!]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
-* Item 1 The entire dataset consists of 11 videos. [Link!]()
-* Item 2 
+
+* Dataset consists of 11 videos. [Google drive link for download!]()
+* Annotations (in MOT format). [Google drive link for download!]() 
 
 
 <h2> Benchmarks </h2>
