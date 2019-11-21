@@ -39,11 +39,12 @@ A | 73 | 6 | 402 | 135 | 43 | 0
 <h2> Downloads </h2>
 There are two versions of the same dataset available for either multi-class multi-object tracking or multi-class multi-object detection.
 <h3> Multi-class Multi-object Detection </h3>
-* Item 1 Dataset consists of 49,345 images. [Google drive link for download!]()
-   * Item 1a Train, test, and validation splits are mentioned in the download folder
-* Item 2 Annotations (in Pascal VOC XML format) [Google drive link for download!]()
-   * Item 2a Converter script for xml to csv is provided [Link!](xml_to_csv.py)
-   * Item 2b Train, test, and validation csv files are provided for training Resnet50 network according to this [repo!]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
+
+* Dataset consists of 49,345 images. [Google drive link for download!]()
+   * Train, test, and validation splits are mentioned in the download folder
+* Annotations (in Pascal VOC XML format) [Google drive link for download!]()
+   * Converter script for xml to csv is provided [Link!](xml_to_csv.py)
+   * Train, test, and validation csv files are provided for training Resnet50 network according to this [repo!]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
 * Item 1 The entire dataset consists of 11 videos. [Link!]()
