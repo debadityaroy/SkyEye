@@ -54,10 +54,11 @@ There are two versions of the same dataset available for either multi-class mult
 
 **Object types**
 
+-|-
 1 | car
 -|-
 2 | bus  
-3 | 2-wheeler 
+3 | two-wheeler 
 4 | autorickshaw
 5 | truck
 6 | van
