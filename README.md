@@ -52,9 +52,8 @@ There are two versions of the same dataset available for either multi-class mult
 * Annotations (in MOT format). [Google drive link for download]() 
 `frame_number, object_id, top_left_x, top_left_y, width, height, object_type`
 
-Object types
+**Object types**
 
--|-
 1 | car
 2 | bus  
 3 | 2-wheeler 
