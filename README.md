@@ -40,16 +40,28 @@ A | 73 | 6 | 402 | 135 | 43 | 0
 There are two versions of the same dataset available for either multi-class multi-object tracking or multi-class multi-object detection.
 <h3> Multi-class Multi-object Detection </h3>
 
-* Dataset consists of 49,345 images. [Google drive link for download!]()
+* Dataset consists of 49,345 images. [Google drive link for download]()
    * Train, test, and validation splits are mentioned in the download folder
-* Annotations (in Pascal VOC XML format) [Google drive link for download!]()
-   * Converter script for xml to csv is provided [Link!](xml_to_csv.py)
-   * Train, test, and validation csv files are provided for training Resnet50 network according to this [repo!]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
+* Annotations (in Pascal VOC XML format) [Google drive link for download]()
+   * Converter script for xml to csv is provided [Link](xml_to_csv.py)
+   * Train, test, and validation csv files are provided for training Resnet50 network according to this [repo]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
 
-* Dataset consists of 11 videos. [Google drive link for download!]()
-* Annotations (in MOT format). [Google drive link for download!]() 
+* Dataset consists of 11 videos. [Google drive link for download]()
+* Annotations (in MOT format). [Google drive link for download]() 
+`frame_number, object_id, top_left_x, top_left_y, width, height, object_type`
+
+Object types
+
+-|-
+1 | car
+2 | bus  
+3 | 2-wheeler 
+4 | autorickshaw
+5 | truck
+6 | van
+7 | pedestrian
 
 
 <h2> Benchmarks </h2>
