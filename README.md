@@ -3,7 +3,7 @@
 
 Part of the [M2Smart project!](http://m2smart.org/en/)  
 
-<img src="m2smart.png" width="200"> <img src="nihon.jpg" width="100"> <img src="iith.png" width="100">
+<img src="images/m2smart.png" width="200"> <img src="images/nihon.jpg" width="100"> <img src="images/iith.png" width="100">
 
 
 
@@ -11,10 +11,10 @@ The SkyEye dataset is the first aerial dataset for monitoring intersections with
 
 **Paldi (P)**         | **Nehru Bridge Ashram Road (N)** 
 ----------------|--------------
-![](paldi.png) |![](nehru.png)
+![](images/paldi.png) |![](images/nehru.png)
 4-way signalized intersection | 4-way signalized intersection
 **Swami Vivekananda bridge - Ashram road (V)** | **APMC market (A)**
-![](vivek.png) |![](apmc.png)
+![](images/vivek.png) |![](images/apmc.png)
 7-way signalized intersection | 3-way unsignalized intersection
 
 These intersections were considered because of the diverse
@@ -42,7 +42,7 @@ There are two versions of the same dataset available for either multi-class mult
 
 * Dataset consists of 49,652 images. [Google drive link for download]()
 * Annotations (in Pascal VOC XML format) [Google drive link for download]()
-   * Converter script for xml to csv is provided [Link](xml_to_csv.py)
+   * Converter script for xml to csv is provided [Link](scripts/xml_to_csv.py)
    * Train, test, and validation csv files are provided for training Resnet50 network according to this repo   (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
