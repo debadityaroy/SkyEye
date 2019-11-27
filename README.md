@@ -41,10 +41,9 @@ There are two versions of the same dataset available for either multi-class mult
 <h3> Multi-class Multi-object Detection </h3>
 
 * Dataset consists of 49,652 images. [Google drive link for download]()
-   * Train, test, and validation splits are mentioned in the download folder
 * Annotations (in Pascal VOC XML format) [Google drive link for download]()
    * Converter script for xml to csv is provided [Link](xml_to_csv.py)
-   * Train, test, and validation csv files are provided for training Resnet50 network according to this [repo]    (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
+   * Train, test, and validation csv files are provided for training Resnet50 network according to this repo   (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
 
@@ -65,6 +64,10 @@ Object type | Name
 
 
 <h2> Benchmarks </h2>
+
+<h3> Multi-object multi-class detection </h3>
+
+
 
 <h3> Multi-object Tracking </h3>
 
