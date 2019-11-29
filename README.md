@@ -14,7 +14,6 @@ The SkyEye dataset is the first aerial dataset for monitoring intersections with
 ![](images/paldi.png) |![](images/nehru.png)
 4-way signalized intersection | 4-way signalized intersection
 **Swami Vivekananda bridge - Ashram road (V)** | **APMC market (A)**
-----------------|--------------
 ![](images/vivek.png) |![](images/apmc.png)
 7-way signalized intersection | 3-way unsignalized intersection
 
@@ -30,7 +29,7 @@ are annotated. A detailed breakdown is below:
 
 **Number of unique vehicles**
 
-Intersection | car | bus | 2-wheeler | auto-rickshaw | truck | van 
+Intersection | car | bus | two-wheeler | auto-rickshaw | truck | van 
 -|-|-|-|-|-|-
 P | 175 | 54 | 881 | 494 | 45 | 16  
 V | 132 | 9 | 627 | 195 | 7 | 0  
