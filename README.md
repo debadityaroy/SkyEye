@@ -43,8 +43,6 @@ There are two versions of the same dataset available for either multi-class mult
 
 * Dataset consists of 49,652 images. [Google drive link for download]()
 * Annotations (in Pascal VOC XML format) [Google drive link for download]()
-   * Converter script for xml to csv is provided [Link](scripts/xml_to_csv.py)
-   * Train, test, and validation csv files are provided for training Resnet50 network according to this repo   (https://github.com/priya-dwivedi/aerial_pedestrian_detection)
 
 <h3> Multi-class Multi-object Tracking </h3>
 
@@ -66,7 +64,11 @@ Object type | Name
 
 <h2> Benchmarks </h2>
 
-<h3> Multi-object multi-class detection </h3>
+<h3> Vehicle localization and type detection</h3>
+The [Retinanet](https://github.com/priya-dwivedi/aerial_pedestrian_detection) architecure is trained for vehicle localization and type detection.
+
+* The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py)
+* The sliced XML annotations are converted to 3 CSV files - train, test, and val. 
 
 
 
