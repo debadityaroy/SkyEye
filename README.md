@@ -29,7 +29,7 @@ are annotated. A detailed breakdown is below:
 
 **Number of unique vehicles**
 
-Intersection | car | bus | two-wheeler | auto-rickshaw | truck | van 
+Intersection | car | bus | motorbike (includes all two-wheelers) | auto-rickshaw | truck | van 
 -|-|-|-|-|-|-
 P | 175 | 54 | 881 | 494 | 45 | 16  
 V | 132 | 9 | 627 | 195 | 7 | 0  
@@ -43,36 +43,49 @@ There are two versions of the same dataset available for either multi-class mult
 * Dataset consists of 49,652 images. [Google drive link for download]()
 * Annotations (in Pascal VOC XML format) [Google drive link for download]()
 
-<h3> Multi-class Multi-object Tracking </h3>
+<h3> Multi-class Multi-vehicle Tracking </h3>
 
 * Dataset consists of 11 videos. [Google drive link for download]()
 * Annotations (in MOT format). [Google drive link for download]() 
 
-`frame_number, object_id, top_left_x, top_left_y, width, height, object_type`
+`frame_number, object_id, top_left_x, top_left_y, width, height, vehicle_type`
 
 
-Object type | Name
+Vehicle type | Name
 -|-
 1 | car
 2 | bus  
-3 | two-wheeler 
+3 | motorbike (includes all two-wheelers)
 4 | autorickshaw
 5 | truck
 6 | van
-7 | pedestrian
+7 | pedestrian 
 
 
-<h2> Benchmarks </h2>
+<h2> Vehicle localization and type detection</h3>
+The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for vehicle localization and type detection.
 
-<h3> Vehicle localization and type detection</h3>
-The [Retinanet](https://github.com/priya-dwivedi/aerial_pedestrian_detection) architecure is trained for vehicle localization and type detection.
+* The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py) script.
+* The sliced XML annotations are then grouped as 3 CSV files - train_annotations, test_annotations, and val_annotations using the (scripts/xml_to_csv.py) script.
+  * An example of train_annotations, test_annotations, and val_annotations is uploaded [here](). 
+* The trained weights for our Retinanet model are uploaded [here](). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
+* For replicating the results shown here follow the training procedure given in [keras-retinanet](https://github.com/fizyr/keras-retinanet) repo.
 
-* The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py)
-* The sliced XML annotations are converted to 3 CSV files - train, test, and val. 
+<h3> Results </h3>
 
+Vehicle type | Average Precision (AP)
+-|-
+car | 0.9620
+bus | 0.9805
+motorbike | 0.5921
+autorickshaw | 0.9598
+truck | 0.9519
+van | 0.9445
+pedestrian | 0.1932
+**meanAP** | **0.7977**
 
+<h2> Multi-object Tracking </h2>
 
-<h3> Multi-object Tracking </h3>
 
 <h2> Acknowledgment </h2>
 This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
