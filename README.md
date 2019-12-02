@@ -62,6 +62,7 @@ Road User type | Name
 
 
 <h2> Road user localization and type detection</h3>
+
 The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for road user localization and type detection.
 
 * The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py) script.
