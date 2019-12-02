@@ -17,19 +17,16 @@ The SkyEye dataset is the first aerial dataset for monitoring intersections with
 ![](images/vivek.png) |![](images/apmc.png)
 7-way signalized intersection | 3-way unsignalized intersection
 
-These intersections were considered because of the diverse
-traffic conditions they present. 
+These intersections were considered because of the diverse traffic conditions they present. 
 
-The videos were captured using a DJI Phantom 4 Pro drone at 50 frames per
-second in 4K resolution (4096x2160). 
+The videos were captured using a DJI Phantom 4 Pro drone at 50 frames per second in 4K resolution (4096x2160). 
 
 <h1> Annotation </h1>
-There are 50,000 frames in total with 4,021 distinct road user tracks
-are annotated. A detailed breakdown is below:
+There are 50,000 frames in total with 4,021 distinct road user tracks are annotated. A detailed breakdown is below:
 
 **Number of unique road users**
 
-Intersection | car | bus | motorbike (includes all two-wheelers) | auto-rickshaw | truck | van | pedestrains
+Intersection | car | bus | motorbike | auto-rickshaw | truck | van | pedestrains
 -|-|-|-|-|-|-|-
 P | 175 | 54 | 881 | 494 | 45 | 16 | 226
 V | 132 | 9 | 627 | 195 | 7 | 0 | 9 | 9
@@ -39,7 +36,8 @@ A | 73 | 6 | 402 | 135 | 43 | 0 | 81
 
 <h2> Downloads </h2>
 There are two versions of the same dataset available for either multi-class multi-object tracking or multi-class multi-object detection.
-<h3> Multi-class Multi-object Detection </h3>
+
+<h3> Multi-object Detection </h3>
 
 * Dataset consists of 49,652 images. [Google drive link for download]()
 * Annotations (in Pascal VOC XML format) [Google drive link for download]()
@@ -63,8 +61,8 @@ Road User type | Name
 7 | pedestrian 
 
 
-<h2> Vehicle localization and type detection</h3>
-The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for vehicle localization and type detection.
+<h2> Road user localization and type detection</h3>
+The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for road user localization and type detection.
 
 * The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py) script.
 * The sliced XML annotations are then grouped as 3 CSV files - train_annotations, test_annotations, and val_annotations using the (scripts/xml_to_csv.py) script.
