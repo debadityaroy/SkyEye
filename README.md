@@ -35,7 +35,7 @@ P | 175 | 54 | 881 | 494 | 45 | 16 | 226
 V | 132 | 9 | 627 | 195 | 7 | 0 | 9 | 9
 N | 41 | 8 | 275 | 99 | 12 | 6 | 33
 A | 73 | 6 | 402 | 135 | 43 | 0 | 81
-**Total | 421 | 77 | 2185 | 971 | 129 | 349**
+**Total** | **421** | **77** | **2185** | **971** | **129** | **349**
 
 <h2> Downloads </h2>
 There are two versions of the same dataset available for either multi-class multi-object tracking or multi-class multi-object detection.
