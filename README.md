@@ -24,17 +24,18 @@ The videos were captured using a DJI Phantom 4 Pro drone at 50 frames per
 second in 4K resolution (4096x2160). 
 
 <h1> Annotation </h1>
-There are 50,000 frames in total with 4,021 distinct vehicle tracks
+There are 50,000 frames in total with 4,021 distinct road user tracks
 are annotated. A detailed breakdown is below:
 
-**Number of unique vehicles**
+**Number of unique road users**
 
-Intersection | car | bus | motorbike (includes all two-wheelers) | auto-rickshaw | truck | van 
--|-|-|-|-|-|-
-P | 175 | 54 | 881 | 494 | 45 | 16  
-V | 132 | 9 | 627 | 195 | 7 | 0  
-N | 41 | 8 | 275 | 99 | 12 | 6  
-A | 73 | 6 | 402 | 135 | 43 | 0 
+Intersection | car | bus | motorbike (includes all two-wheelers) | auto-rickshaw | truck | van | pedestrains
+-|-|-|-|-|-|-|-
+P | 175 | 54 | 881 | 494 | 45 | 16 | 226
+V | 132 | 9 | 627 | 195 | 7 | 0 | 9 | 9
+N | 41 | 8 | 275 | 99 | 12 | 6 | 33
+A | 73 | 6 | 402 | 135 | 43 | 0 | 81
+**Total | 421 | 77 | 2185 | 971 | 129 | 349**
 
 <h2> Downloads </h2>
 There are two versions of the same dataset available for either multi-class multi-object tracking or multi-class multi-object detection.
@@ -48,10 +49,10 @@ There are two versions of the same dataset available for either multi-class mult
 * Dataset consists of 11 videos. [Google drive link for download]()
 * Annotations (in MOT format). [Google drive link for download]() 
 
-`frame_number, object_id, top_left_x, top_left_y, width, height, vehicle_type`
+`frame_number, object_id, top_left_x, top_left_y, width, height, road_user_type`
 
 
-Vehicle type | Name
+Road User type | Name
 -|-
 1 | car
 2 | bus  
