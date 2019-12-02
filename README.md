@@ -75,14 +75,14 @@ The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained
 
 Vehicle type | Average Precision (AP)
 -|-
-car | 0.9620
-bus | 0.9805
-motorbike | 0.5921
-autorickshaw | 0.9598
-truck | 0.9519
-van | 0.9445
-pedestrian | 0.1932
-**meanAP** | **0.7977**
+car | 0.9752
+bus | 0.9848
+motorbike | 0.6109
+autorickshaw | 0.9793
+truck | 0.935
+van | 0.9678
+pedestrian | 0.2364
+**meanAP** | **0.8154**
 
 <h2> Multi-object Tracking </h2>
 
