@@ -69,7 +69,7 @@ The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained
 * The sliced XML annotations are then grouped as 3 CSV files - train_annotations, test_annotations, and val_annotations using the (scripts/xml_to_csv.py) script.
   * An example of train_annotations, test_annotations, and val_annotations is uploaded [here](). 
 * The trained weights for our Retinanet model are uploaded [here](). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
-* For replicating the results shown here follow the training procedure given in [keras-retinanet](https://github.com/fizyr/keras-retinanet) repo.
+* For replicating the results shown here, follow the training procedure given in [keras-retinanet](https://github.com/fizyr/keras-retinanet) repo.
 
 <h3> Results </h3>
 
