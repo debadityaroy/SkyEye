@@ -28,7 +28,7 @@ There are 50,000 frames in total with 4,021 distinct road user tracks are annota
 
 Intersection | car | bus | motorbike | auto-rickshaw | truck | van | pedestrains
 -|-|-|-|-|-|-|-
-P | 175 | 54 | 881 | 494 | 45 | 16 | 226
+P (1 & 2) | 175 | 54 | 881 | 494 | 45 | 16 | 226
 V | 132 | 9 | 627 | 195 | 7 | 0 | 9 | 9
 N | 41 | 8 | 275 | 99 | 12 | 6 | 33
 A | 73 | 6 | 402 | 135 | 43 | 0 | 81
