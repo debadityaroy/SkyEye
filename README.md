@@ -73,8 +73,9 @@ The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained
 * For replicating the results shown here, follow the training procedure given in [keras-retinanet](https://github.com/fizyr/keras-retinanet) repo.
 
 <h3> Results </h3>
+The **meanAP**  for the trained model is **0.8154**.
 
-Vehicle type | Average Precision (AP)
+Road user type | Average Precision (AP)
 -|-
 car | 0.9752
 bus | 0.9848
@@ -83,7 +84,7 @@ autorickshaw | 0.9793
 truck | 0.935
 van | 0.9678
 pedestrian | 0.2364
-**meanAP** | **0.8154**
+
 
 <h2> Multi-object Tracking </h2>
 
