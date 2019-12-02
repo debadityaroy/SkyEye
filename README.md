@@ -73,29 +73,30 @@ The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained
 
 <h3> Results </h3>
 
-The **meanAP**  for the trained model is **0.8154**.
+The **meanAP**  for the trained model is **0.8175**.
 
 Road user type | Average Precision (AP)
 -|-
-car | 0.9752
-bus | 0.9848
-motorbike | 0.6109
-autorickshaw | 0.9793
-truck | 0.935
-van | 0.9678
-pedestrian | 0.2364
+car | 0.9747
+bus | 0.9863
+motorbike | 0.6136
+autorickshaw | 0.9802
+truck | 0.9568
+van | 0.9695
+pedestrian | 0.2413
 
 
 <h2> Multi-object Tracking </h2>
 
 For tracking, the [MDP](https://github.com/yuxng/MDP_Tracking) and the [SORT](https://github.com/abewley/sort) algorithms are evaluated.   
 
-Video
-Paldi 1
-Paldi 2
-Nehru 1
-Vivek 1
-
+Video | Precision | Recall| FAR
+-|-|-|-
+Paldi 1 | 7.2 | 7.2 | 19.53
+Vivek 1 | 15.9 | 15.9 | 17.12
+Nehru 1 | 8.8 | 8.8 | 11.53
+APMC 1 | 8.6 | 8.6 | 15.65
+Paldi 2| 9.7 | 9.8 | 15.72
 
 <h2> Acknowledgment </h2>
 This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
