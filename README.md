@@ -88,9 +88,9 @@ pedestrian | 0.2413
 
 <h2> Multi-object Tracking </h2>
 
-For tracking, the [MDP](https://github.com/yuxng/MDP_Tracking) and the [SORT](https://github.com/abewley/sort) algorithms are evaluated.   
+For tracking, the [SORT](https://github.com/abewley/sort) algorithm is evaluated as a preliminary benchmark. The user-defined annotations were used for tracking.
 
-Video | Precision | Recall| FAR
+Video name | Precision | Recall| FAR
 -|-|-|-
 Paldi 1 | 7.2 | 7.2 | 19.53
 Vivek 1 | 15.9 | 15.9 | 17.12
