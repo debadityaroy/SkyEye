@@ -98,5 +98,28 @@ Nehru 1 | 8.8 | 8.8 | 11.53
 APMC 1 | 8.6 | 8.6 | 15.65
 Paldi 2| 9.7 | 9.8 | 15.72
 
+<h2> License </h2>
+
+This dataset is provided for academic and research purposes only.
+
+<h2> Citation</h2>
+
+If you use this dataset, consider citing our papers.
+
+@INPROCEEDINGS{8916927, 
+author={D. {Roy} and T. {Ishizaka} and C. K. {Mohan} and A. {Fukuda}}, 
+booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
+title={Vehicle Trajectory Prediction at Intersections using Interaction based Generative Adversarial Networks}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={2318-2323}, 
+keywords={}, 
+doi={10.1109/ITSC.2019.8916927}, 
+ISSN={null}, 
+month={Oct},}
+
+
+
 <h2> Acknowledgment </h2>
 This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
