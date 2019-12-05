@@ -35,7 +35,7 @@ A | 73 | 6 | 402 | 135 | 43 | 0 | 81
 **Total** | **421** | **77** | **2185** | **971** | **107** | **22** | **349**
 
 <h2> Downloads </h2>
-There are two versions of the same dataset available for either _road user localization and type detection_ or _multi-object tracking_.
+The Skyeye dataset is available as images with bounding box annotations for _road user localization and type detection_ or videos with tracks extracted from every road user for _multi-object tracking_. Additionally, we also provide labeled collision prone tracks 
 
 <h3> Road user localization and type detection </h3>
 
