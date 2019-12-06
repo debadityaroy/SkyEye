@@ -21,7 +21,7 @@ These intersections were considered because of the diverse traffic conditions th
 
 The videos were captured using a DJI Phantom 4 Pro drone at 50 frames per second in 4K resolution (4096x2160). 
 
-<h1> Annotation </h1>
+<h2> Annotation </h2>
 There are 50,000 frames in total with 4,021 distinct road user tracks are annotated. A detailed breakdown is below:
 
 **Number of unique road users**
@@ -68,12 +68,11 @@ Road User type | Name
 
 The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for road user localization and type detection.
 
-* The images sliced into 1920x1080 tiles to train the [Retinanet](https://github.com/fizyr/keras-retinanet) architecture.
+* The images are sliced into 1920x1080 tiles to train the [Retinanet](https://github.com/fizyr/keras-retinanet) architecture.
 Download the sliced images [here](https://drive.google.com/open?id=10Rfc4dhvhE4FmhlAUnCjw2iYeKc2_X0P) (68.1 GB)
-* The trainCSV files - [train_annotations.csv](https://drive.google.com/open?id=12iUHwsYkD0ofDuPQo3KnxLwU0U3rHeRm), [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li), and [val_annotations.csv](https://drive.google.com/open?id=1JveeN-uPyT0x4DYw4VJygAOpzjAdWuW-).
-
+* The train, test, and validation CSV files for benchmarking are as follows - [train_annotations.csv](https://drive.google.com/open?id=12iUHwsYkD0ofDuPQo3KnxLwU0U3rHeRm), [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li), and [val_annotations.csv](https://drive.google.com/open?id=1JveeN-uPyT0x4DYw4VJygAOpzjAdWuW-).
 * The trained weights for our Retinanet model are uploaded [here](https://drive.google.com/open?id=1aAyFLH8pN8_JjBImxI9B4ac0nOBJP2lM). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
-* For replicating the results shown here, use the trained model with the [evaluate.py](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/evaluate.py) script on the [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li) file.
+* For replicating the results shown here, use the trained model given above with the [evaluate.py](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/evaluate.py) script on the [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li) file.
 
 The **meanAP**  for the trained model is **0.8175**.
 
@@ -88,7 +87,7 @@ van | 0.9695
 pedestrian | 0.2413
 
 
-<h2> Road-user Tracking </h2>
+<h3> Road-user Tracking </h3>
 
 For tracking, the [SORT](https://github.com/abewley/sort) algorithm is evaluated as a preliminary benchmark. The user-defined annotations were used for tracking.
 
