@@ -35,17 +35,18 @@ A | 73 | 6 | 402 | 135 | 43 | 0 | 81
 **Total** | **421** | **77** | **2185** | **971** | **107** | **22** | **349**
 
 <h2> Downloads </h2>
-The Skyeye dataset is available as images with bounding box annotations for _road user localization and type detection_ or videos with tracks extracted from every road user for _multi-object tracking_. Additionally, we also provide labeled collision prone tracks 
+The Skyeye dataset is available as images with bounding box annotations for _road user localization and type detection_ or videos with tracks extracted from every road user for _road-user tracking_. Additionally, we also provide labeled collision prone tracks 
 
 <h3> Road user localization and type detection </h3>
 
-* Dataset consists of 49,652 images. [Google drive link for download]()
-* Annotations (in Pascal VOC XML format) [Google drive link for download]()
+* Dataset consists of 49,652 images in 4096x2160 [here](https://drive.google.com/open?id=1vUUdkhC06woQlPJOZ6ZFuHEAESqY8pw-) or sliced into 198,485 sliced images in 1920x1080 [here](https://drive.google.com/open?id=10Rfc4dhvhE4FmhlAUnCjw2iYeKc2_X0P)
+* Annotations for 4096x2160 images (in Pascal VOC XML format) [here](https://drive.google.com/open?id=1tKs07Y8VhwCu8be6h27armLx7DS7bTSQ)
+* Annotations for 1920x1080 images (in CSV format) [here](https://drive.google.com/open?id=1xa7nciSnLeaRhgkYiKEvGAogz9uf-OdE)
 
-<h3> Multi-object Tracking </h3>
+<h3> Road-user Tracking </h3>
 
-* Dataset consists of 5 videos. [Google drive link for download]()
-* Annotations (in MOT format). [Google drive link for download]() 
+* Dataset consists of 5 videos that can be downloaded [here](https://drive.google.com/open?id=1Zp9OzxjP8A1kqBrd7Rg20hSQXIhqDIY9)
+* Annotations (in MOT format) that can be downloaded [here](https://drive.google.com/open?id=1yaYycJ-Llbr4fouGSeeRQCkRWP36GhNa) 
 
 `frame_number, object_id, top_left_x, top_left_y, width, height, road_user_type`
 
@@ -61,17 +62,18 @@ Road User type | Name
 7 | pedestrian 
 
 
-<h2> Road user localization and type detection</h3>
+<h2> Benchmarks</h2>
+
+<h3>Road user localization and type detection</h3>
 
 The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for road user localization and type detection.
 
-* The images and annotations are divided into 1920x1080 tiles using the (scripts/slice_images_with_annotations.py) script.
-* The sliced XML annotations are then grouped as 3 CSV files - train_annotations, test_annotations, and val_annotations using the (scripts/xml_to_csv.py) script.
-  * An example of train_annotations, test_annotations, and val_annotations is uploaded [here](). 
-* The trained weights for our Retinanet model are uploaded [here](). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
-* For replicating the results shown here, follow the training procedure given in [keras-retinanet](https://github.com/fizyr/keras-retinanet) repo.
+* The images sliced into 1920x1080 tiles to train the [Retinanet](https://github.com/fizyr/keras-retinanet) architecture.
+Download the sliced images [here](https://drive.google.com/open?id=10Rfc4dhvhE4FmhlAUnCjw2iYeKc2_X0P) (68.1 GB)
+* The trainCSV files - [train_annotations.csv](https://drive.google.com/open?id=12iUHwsYkD0ofDuPQo3KnxLwU0U3rHeRm), [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li), and [val_annotations.csv](https://drive.google.com/open?id=1JveeN-uPyT0x4DYw4VJygAOpzjAdWuW-).
 
-<h3> Results </h3>
+* The trained weights for our Retinanet model are uploaded [here](https://drive.google.com/open?id=1aAyFLH8pN8_JjBImxI9B4ac0nOBJP2lM). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
+* For replicating the results shown here, use the trained model with the [evaluate.py](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/evaluate.py) script on the [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li) file.
 
 The **meanAP**  for the trained model is **0.8175**.
 
@@ -86,11 +88,11 @@ van | 0.9695
 pedestrian | 0.2413
 
 
-<h2> Multi-object Tracking </h2>
+<h2> Road-user Tracking </h2>
 
 For tracking, the [SORT](https://github.com/abewley/sort) algorithm is evaluated as a preliminary benchmark. The user-defined annotations were used for tracking.
 
-Video name | Precision | Recall| FAR
+Video name | Precision | Recall| False Acceptance Rate (FAR)
 -|-|-|-
 Paldi 1 | 7.2 | 7.2 | 19.53
 Vivek 1 | 15.9 | 15.9 | 17.12
