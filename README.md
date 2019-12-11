@@ -107,6 +107,7 @@ This dataset is provided for academic and research purposes only.
 
 If you use this dataset, consider citing our papers.
 
+```
 @INPROCEEDINGS{8916927, 
 author={D. {Roy} and T. {Ishizaka} and C. K. {Mohan} and A. {Fukuda}}, 
 booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
@@ -128,7 +129,7 @@ month={Oct},}
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-
+```
 
 
 <h2> Acknowledgment </h2>
