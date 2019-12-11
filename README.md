@@ -107,7 +107,7 @@ This dataset is provided for academic and research purposes only.
 
 If you use this dataset, consider citing our papers.
 
-`@INPROCEEDINGS{8916927, 
+@INPROCEEDINGS{8916927, 
 author={D. {Roy} and T. {Ishizaka} and C. K. {Mohan} and A. {Fukuda}}, 
 booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
 title={Vehicle Trajectory Prediction at Intersections using Interaction based Generative Adversarial Networks}, 
@@ -118,7 +118,16 @@ pages={2318-2323},
 keywords={}, 
 doi={10.1109/ITSC.2019.8916927}, 
 ISSN={null}, 
-month={Oct},}`
+month={Oct},}
+
+@misc{roy2019detection,
+    title={Detection of Collision-Prone Vehicle Behavior at Intersections using Siamese Interaction LSTM},
+    author={Debaditya Roy and Tetsuhiro Ishizaka and Krishna Mohan C. and Atsushi Fukuda},
+    year={2019},
+    eprint={1912.04801},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 
 
 
