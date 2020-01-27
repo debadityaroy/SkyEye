@@ -1,8 +1,6 @@
 # SkyEye dataset
 <h2>Dataset for analyzing lane-less traffic behavior at intersections </h2>
 
-Part of the [M2Smart project!](http://m2smart.org/en/)  
-
 <img src="images/m2smart.png" width="200"> <img src="images/nihon.jpg" width="100"> <img src="images/iith.png" width="100">
 
 
@@ -118,6 +116,8 @@ This dataset is provided for academic and research purposes only.
 * Daichi Tashiro (田代　大智), Bachelor student, Dept. of TSE, Nihon University
 * Kaoru Kuga (空閑　香), Bachelor student, Dept. of TSE, Nihon University
 
+<h2> Acknowledgment </h2>
+This  work  has  been  conducted  as  the  part  of  SATREPS project [M2Smart  “Smart  Cities  development  for  EmergingCountries by Multimodal Transport System based on Sensing, Network  and  Big  Data  Analysis  of  Regional  Transportation”](http://m2smart.org/en/) (JPMJSA1606) funded by JST and JICA
 
 <h2> Citation</h2>
 
