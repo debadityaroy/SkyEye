@@ -85,7 +85,8 @@ van | 0.9695
 pedestrian | 0.2413
 
 <h4> Visualization </h4>
-Some tracking output videos are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
+
+![](images/sample_detection.gif)
 
 
 <h3> Road-user Tracking </h3>
@@ -99,7 +100,10 @@ APMC 1 | 8.6 | 8.6 | 15.65
 Paldi 2| 9.7 | 9.8 | 15.72
 
 <h4> Visualization </h4>
-Some tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
+
+![](images/sample_tracking.gif)
+
+Some more tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
 
 
 <h2> License </h2>
