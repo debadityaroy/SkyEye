@@ -116,8 +116,6 @@ This dataset is provided for academic and research purposes only.
 * Daichi Tashiro (田代　大智), Bachelor student, Dept. of TSE, Nihon University
 * Kaoru Kuga (空閑　香), Bachelor student, Dept. of TSE, Nihon University
 
-<h2> Acknowledgment </h2>
-This  work  has  been  conducted  as  the  part  of  SATREPS project [M2Smart  “Smart  Cities  development  for  EmergingCountries by Multimodal Transport System based on Sensing, Network  and  Big  Data  Analysis  of  Regional  Transportation”](http://m2smart.org/en/) (JPMJSA1606) funded by JST and JICA
 
 <h2> Citation</h2>
 
@@ -147,6 +145,6 @@ month={Oct},}
 }
 ```
 
-
 <h2> Acknowledgment </h2>
-This work has been conducted as the part of SATREPS project entitled on “Smart Cities development for Emerging Countries by Multimodal Transport System based on Sensing, Network and Big Data Analysis of Regional Transportation” (JPMJSA1606) funded by JST and JICA. 
+
+This  work  has  been  conducted  as  the  part  of  SATREPS project [M2Smart “Smart  Cities  development  for  EmergingCountries by Multimodal Transport System based on Sensing, Network  and  Big  Data  Analysis  of  Regional  Transportation”](http://m2smart.org/en/) (JPMJSA1606) funded by JST and JICA
