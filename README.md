@@ -87,7 +87,7 @@ pedestrian | 0.2413
 
 <h4> Visualization </h4>
 
-<img src="images/sample_detection.gif" width="500">
+<img src="images/sample_detection.gif" width="1000">
 
 
 <h3> Road-user Tracking </h3>
@@ -104,7 +104,7 @@ Paldi 2| 9.7 | 9.8 | 15.72
 
 <h4> Visualization </h4>
 
-<img src="images/sample_tracking.gif" width="500">
+<img src="images/sample_tracking.gif" width="1000">
 
 Some more tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
 
