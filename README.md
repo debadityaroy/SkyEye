@@ -84,11 +84,12 @@ truck | 0.9568
 van | 0.9695
 pedestrian | 0.2413
 
+<h4> Visualization </h4>
+Some tracking output videos are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
+
 
 <h3> Road-user Tracking </h3>
-
-For tracking, the [SORT](https://github.com/abewley/sort) algorithm is evaluated as a preliminary benchmark. The user-defined annotations were used for tracking.
-
+For tracking, the [SORT](https://github.com/abewley/sort) algorithm is evaluated as a preliminary benchmark. The user-defined detections were used for tracking. 
 Video name | Precision | Recall| False Acceptance Rate (FAR)
 -|-|-|-
 Paldi 1 | 7.2 | 7.2 | 19.53
@@ -96,6 +97,10 @@ Vivek 1 | 15.9 | 15.9 | 17.12
 Nehru 1 | 8.8 | 8.8 | 11.53
 APMC 1 | 8.6 | 8.6 | 15.65
 Paldi 2| 9.7 | 9.8 | 15.72
+
+<h4> Visualization </h4>
+Some tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
+
 
 <h2> License </h2>
 
