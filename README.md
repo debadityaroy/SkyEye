@@ -33,6 +33,7 @@ A | 73 | 6 | 402 | 135 | 43 | 0 | 81
 **Total** | **421** | **77** | **2185** | **971** | **107** | **22** | **349**
 
 <h2> Downloads </h2>
+
 The Skyeye dataset is available as images with bounding box annotations for _road user localization and type detection_ or videos with tracks extracted from every road user for _road-user tracking_. Additionally, we also provide labeled collision prone tracks 
 
 <h3> Road user localization and type detection </h3>
@@ -86,7 +87,7 @@ pedestrian | 0.2413
 
 <h4> Visualization </h4>
 
-![](images/sample_detection.gif | width="100")
+![](img src="images/sample_detection.gif" | width="100")
 
 
 <h3> Road-user Tracking </h3>
@@ -103,7 +104,7 @@ Paldi 2| 9.7 | 9.8 | 15.72
 
 <h4> Visualization </h4>
 
-![](images/sample_tracking.gif | width="100")
+![](img src="images/sample_tracking.gif" | width="100")
 
 Some more tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
 
