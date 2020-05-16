@@ -136,7 +136,7 @@ If you use this dataset, consider citing one of our papers.
 ```
 @INPROCEEDINGS{roy2020defining, 
 author={D. {Roy} and Naveen Kumar {K.} and C. K. {Mohan}}, 
-booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
+booktitle={2020 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
 title={Defining Traffic States based on Spatio-Temporal Graphs}, 
 year={2020}, 
 }
