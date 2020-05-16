@@ -131,21 +131,16 @@ This dataset is provided for academic and research purposes only.
 
 <h2> Citation</h2>
 
-If you use this dataset, consider citing our papers.
+If you use this dataset, consider citing one of our papers.
 
 ```
-@INPROCEEDINGS{8916927, 
-author={D. {Roy} and T. {Ishizaka} and C. K. {Mohan} and A. {Fukuda}}, 
+@INPROCEEDINGS{roy2020defining, 
+author={D. {Roy} and Naveen Kumar {K.} and C. K. {Mohan}}, 
 booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
-title={Vehicle Trajectory Prediction at Intersections using Interaction based Generative Adversarial Networks}, 
-year={2019}, 
-volume={}, 
-number={}, 
-pages={2318-2323}, 
-keywords={}, 
-doi={10.1109/ITSC.2019.8916927}, 
-ISSN={null}, 
-month={Oct},}
+title={Defining Traffic States based on Spatio-Temporal Graphs}, 
+year={2020}, 
+}
+
 
 @misc{roy2019detection,
     title={Detection of Collision-Prone Vehicle Behavior at Intersections using Siamese Interaction LSTM},
