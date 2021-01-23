@@ -38,14 +38,14 @@ The Skyeye dataset is available as images with bounding box annotations for _roa
 
 <h3> Road user localization and type detection </h3>
 
-* Dataset consists of 49,652 images in 4096x2160 [here](https://drive.google.com/open?id=1vUUdkhC06woQlPJOZ6ZFuHEAESqY8pw-) or sliced into 198,485 sliced images in 1920x1080 [here](https://drive.google.com/open?id=10Rfc4dhvhE4FmhlAUnCjw2iYeKc2_X0P)
-* Annotations for 4096x2160 images (in Pascal VOC XML format) [here](https://drive.google.com/open?id=1tKs07Y8VhwCu8be6h27armLx7DS7bTSQ)
-* Annotations for 1920x1080 images (in CSV format) [here](https://drive.google.com/open?id=1xa7nciSnLeaRhgkYiKEvGAogz9uf-OdE)
+* Dataset consists of 49,652 images in 4096x2160 [here](https://drive.google.com/drive/folders/109_fudeRF-cpTWWmML_9rkVm-k3g2W1s?usp=sharing) or sliced into 198,485 sliced images in 1920x1080 [here](https://drive.google.com/drive/folders/1-d6gXC_mcKV_7t1JLl0Knen4fi_9dlxp?usp=sharing)
+* Annotations for 4096x2160 images (in Pascal VOC XML format) [here](https://drive.google.com/drive/folders/10IP94ibhl4RHXtvHp-pYf2vbOZkxaSv8?usp=sharing)
+* Annotations for 1920x1080 images (in CSV format) [here](https://drive.google.com/drive/folders/1-_knE1XlAl1wxEfQjysXyRzL8Rtztzkl?usp=sharing)
 
 <h3> Road-user Tracking </h3>
 
-* Dataset consists of 5 videos that can be downloaded [here](https://drive.google.com/open?id=1Zp9OzxjP8A1kqBrd7Rg20hSQXIhqDIY9)
-* Annotations (in MOT format) that can be downloaded [here](https://drive.google.com/open?id=1yaYycJ-Llbr4fouGSeeRQCkRWP36GhNa) 
+* Dataset consists of 5 videos that can be downloaded [here](https://drive.google.com/drive/folders/1160Xuo2920urD6btjQjQVVhQj9xENRWd?usp=sharing)
+* Annotations (in MOT format) that can be downloaded [here](https://drive.google.com/drive/folders/10bhhdm2QPL6J4naxsYOs-f8t_OyhBbWL?usp=sharing) 
 
 `frame_number, object_id, top_left_x, top_left_y, width, height, road_user_type`
 
@@ -68,10 +68,10 @@ Road User type | Name
 The [Retinanet](https://github.com/fizyr/keras-retinanet) architecure is trained for road user localization and type detection.
 
 * The images are sliced into 1920x1080 tiles to train the [Retinanet](https://github.com/fizyr/keras-retinanet) architecture.
-Download the sliced images [here](https://drive.google.com/open?id=10Rfc4dhvhE4FmhlAUnCjw2iYeKc2_X0P) (68.1 GB)
-* The train, test, and validation CSV files for benchmarking are as follows - [train_annotations.csv](https://drive.google.com/open?id=12iUHwsYkD0ofDuPQo3KnxLwU0U3rHeRm), [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li), and [val_annotations.csv](https://drive.google.com/open?id=1JveeN-uPyT0x4DYw4VJygAOpzjAdWuW-).
-* The trained weights for our Retinanet model are uploaded [here](https://drive.google.com/open?id=1aAyFLH8pN8_JjBImxI9B4ac0nOBJP2lM). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
-* For replicating the results shown here, use the trained model given above with the [evaluate.py](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/evaluate.py) script on the [test_annotations.csv](https://drive.google.com/open?id=1tAkr0az_eQynqm93I33dNeUP_NrMQ3Li) file.
+Download the sliced images [here](https://drive.google.com/drive/folders/1-d6gXC_mcKV_7t1JLl0Knen4fi_9dlxp?usp=sharing) (68.1 GB)
+* The train, test, and validation CSV files for benchmarking are as follows - [train_annotations.csv](https://drive.google.com/file/d/1-iFERIqRHgeZaVD5bXzuPnFaQfqjseRa/view?usp=sharing), [test_annotations.csv](https://drive.google.com/file/d/1-nzAK9dSlxOU7ymMfOfxxp7RgQv3tftg/view?usp=sharing), and [val_annotations.csv](https://drive.google.com/file/d/1-eEcODW3iKYoDrrwxbIQeAiVf2LhYQim/view?usp=sharing).
+* The trained weights for our Retinanet model are uploaded [here](https://drive.google.com/file/d/101WFyoSqlKPQm6NB-fxeCzGmpFgJhYXh/view?usp=sharing). We started with the [resnet50_coco_best_v2.1.0.h5](https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5) model.
+* For replicating the results shown here, use the trained model given above with the [evaluate.py](https://github.com/fizyr/keras-retinanet/blob/master/keras_retinanet/bin/evaluate.py) script on the [test_annotations.csv](https://drive.google.com/file/d/1-nzAK9dSlxOU7ymMfOfxxp7RgQv3tftg/view?usp=sharing) file.
 
 The **meanAP**  for the trained model is **0.8175**.
 
@@ -106,7 +106,7 @@ Paldi 2| 9.7 | 9.8 | 15.72
 
 <img src="images/sample_tracking.gif" width="1000">
 
-Some more tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/open?id=1vDV7leNnRYN3Vi-GInuGowDJV9ly91C4)
+Some more tracking output videos with the [DeepSORT](https://github.com/nwojke/deep_sort) tracker are available [here](https://drive.google.com/drive/folders/11g4EfbYTXBAlVnWjK2hehp_FX1vQPlKi?usp=sharing)
 
 
 <h2> License </h2>
