@@ -141,14 +141,12 @@ title={Defining Traffic States based on Spatio-Temporal Traffic Graphs},
 year={2020}, 
 }
 
-
-@misc{roy2019detection,
-    title={Detection of Collision-Prone Vehicle Behavior at Intersections using Siamese Interaction LSTM},
-    author={Debaditya Roy and Tetsuhiro Ishizaka and Krishna Mohan C. and Atsushi Fukuda},
-    year={2019},
-    eprint={1912.04801},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{roy2020detection,
+  title={Detection of Collision-Prone Vehicle Behavior at Intersections using Siamese Interaction LSTM},
+  author={Roy, Debaditya and Ishizaka, Tetsuhiro and Mohan, C Krishna and Fukuda, Atsushi},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2020},
+  publisher={IEEE}
 }
 ```
 
